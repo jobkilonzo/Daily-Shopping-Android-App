@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/back_design"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/registration"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:textAppearanceLarge"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/email"
+        android:background="@drawable/ed_design"
+        android:padding="10dp"
+        android:maxLines="1"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:id="@+id/email_reg"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/ed_design"
+        android:padding="10dp"
+        android:inputType="textPassword"
+        android:hint="@string/password"
+        android:maxLines="1"
+        android:textColorHint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:id="@+id/password_reg"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/register"
+        android:background="@drawable/ed_design"
+        android:padding="10dp"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:id="@+id/reg"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/signin_text"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:padding="5dp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:id="@+id/sign_in"/>
+
+</LinearLayout>
